@@ -4,11 +4,11 @@ import openai
 import os
 import PyPDF2
 from dotenv import load_dotenv
+load_dotenv()
 
-openai.api_key = st.secret["OPENAI_API_KEY"]
+openai.api_key = os.getenv("OPENAI_API_KEY")
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
-
 role = st.selectbox('Choose your assistant role:', ['Career Coach', 'Health Advisor'])
 if not st.session_state.chat_history:
     if role == "Career Coach":
