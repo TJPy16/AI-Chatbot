@@ -1,4 +1,5 @@
 streamlit
 openai
-python-dotenv
 PyPDF2
+python-dotenv
+os
