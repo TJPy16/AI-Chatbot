@@ -1,0 +1,38 @@
+# === ENVIRONMENT SECRETS ===
+.env
+
+# === PYTHON CACHE FILES ===
+__pycache__/
+*.py[cod]
+
+# === BYTECODE / COMPILED FILES ===
+*.so
+*.pyd
+*.dll
+*.pyc
+
+# === STREAMLIT TEMP FILES ===
+.streamlit/
+
+# === VIRTUAL ENVIRONMENTS ===
+venv/
+env/
+.venv/
+ENV/
+ENV.bak/
+venv.bak/
+
+# === PYCHARM / IDE FILES ===
+.idea/
+*.iml
+
+# === OS-SPECIFIC FILES ===
+.DS_Store
+Thumbs.db
+
+# === PDF or Uploaded Files ===
+*.pdf
+uploads/
+
+# === LOG FILES ===
+*.log
